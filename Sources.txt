@@ -1,0 +1,9 @@
+
+Paper idea: 
+http://web2.cs.columbia.edu/~mcollins/em.pdf
+
+
+Data:
+https://github.com/nikitaa30/Spam-Filtering-techniques/blob/master/dataset%20for%20bag%20of%20words/spam.csv
+
+https://www.comet.com/site/blog/spam-filtering-using-bag-of-words/
