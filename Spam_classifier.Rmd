@@ -9,16 +9,12 @@ set.seed(42)
 
 
 ```{r}
-# Function to initialize the parameters
 initialize_parameters <- function(J) {
   list(
-    # assume 50/50 probability of spam
+    # assume 30/70 probability of spam
     delta = 0.3,
     
-    # assume spam words have high probability and ham words have low probability given message is spam
     p1 = runif(J, 0.4, 0.6),
-    
-    # assume all words have low probability given message is not spam
     p0 = runif(J, 0.4, 0.6)
   )
 }
